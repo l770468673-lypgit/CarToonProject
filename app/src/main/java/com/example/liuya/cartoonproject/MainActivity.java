@@ -5,10 +5,17 @@ import android.widget.RadioGroup;
 
 import com.example.liuya.cartoonproject.Base.BaseActivity;
 
+/**
+ *
+ */
 public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener {
 
     private RadioGroup rg_btn;
 
+    /**
+     *
+     * @return
+     */
 
     @Override
     protected int getContentResid() {
