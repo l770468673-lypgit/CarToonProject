@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CarToonProject</string>
+    <string-array name="toobar">
+        <item>精品</item>
+        <item>排行</item>
+
+    </string-array>
 </resources>
