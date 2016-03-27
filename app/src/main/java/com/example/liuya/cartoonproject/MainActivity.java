@@ -5,19 +5,9 @@ import android.widget.RadioGroup;
 
 import com.example.liuya.cartoonproject.Base.BaseActivity;
 
-
-/**
- *
- */
 public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener {
 
     private RadioGroup rg_btn;
-
-    /**
-     *
-     * @return
-     */
-
     @Override
     protected int getContentResid() {
         return R.layout.activity_main;
@@ -34,13 +24,9 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
 
     @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
-
-
         switch (checkedId){
-
             case R.id.btn1:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fl,new ShouYeFrgment()).commit();
-
                 break;
             case R.id.btn2:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fl,new FenLei()).commit();
